@@ -318,7 +318,6 @@ body._pc .menu__list > li {
 
     .menu__body._active {
         left: 0;
-        text-align: center;
     }
 
     .menu__body::before {
@@ -335,6 +334,7 @@ body._pc .menu__list > li {
     .menu__list > li {
         margin-bottom: 20px;
         flex-wrap: wrap;
+        text-align: center;
     }
 
     .menu__list > li:last-child{
